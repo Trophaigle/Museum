@@ -1,0 +1,2636 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &330585543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330585546}
+  - component: {fileID: 330585545}
+  - component: {fileID: 330585544}
+  - component: {fileID: 330585547}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &330585544
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+--- !u!20 &330585545
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &330585546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9865684, z: 0.16334897, w: 0}
+  m_LocalPosition: {x: -0.116, y: 1.013, z: 1.539}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 18.803, y: -180, z: 0}
+--- !u!114 &330585547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!1 &410087039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410087041}
+  - component: {fileID: 410087040}
+  - component: {fileID: 410087042}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &410087040
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 2
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 5000
+  m_UseColorTemperature: 1
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &410087041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &410087042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 1
+--- !u!1 &441065907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 441065910}
+  - component: {fileID: 441065908}
+  m_Layer: 0
+  m_Name: TestBasic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &441065908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441065907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329c5d5ffe101344aab221ac88bdf896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  midiFile: {fileID: 4900000, guid: 7b2ee714b30ebac4a8e18c66cb4ade07, type: 3}
+  key: {fileID: 0}
+  pressAngle: 1.5
+  pressSpeed: 10
+--- !u!4 &441065910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441065907}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.22457883, y: 0.36428666, z: 0.35286224}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &608115831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 608115833}
+  - component: {fileID: 608115834}
+  m_Layer: 0
+  m_Name: TestPlayOnPiano
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &608115833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608115831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.22457883, y: 0.36428666, z: 0.35286224}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &608115834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608115831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3611803af34959c439f0a9392d691876, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  midiFile: {fileID: 4900000, guid: 7b2ee714b30ebac4a8e18c66cb4ade07, type: 3}
+  audioSource: {fileID: 1079542178}
+  pressAngle: 1.5
+  pressSpeed: 10
+  useFlats: 1
+  whiteKeysParent: {fileID: 0}
+  blackKeysParent: {fileID: 0}
+  whiteKeys:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  blackKeys:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lowestNote: 21
+  highestNote: 108
+--- !u!1 &711009078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 711009081}
+  - component: {fileID: 711009079}
+  m_Layer: 0
+  m_Name: TestBuildNoteDataBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &711009079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711009078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e43f10c03be1214e83ab05ee4859c0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  midiFile: {fileID: 4900000, guid: 7b2ee714b30ebac4a8e18c66cb4ade07, type: 3}
+  audioSource: {fileID: 1079542178}
+  pressAngle: 1.5
+  pressSpeed: 10
+  useFlats: 1
+--- !u!4 &711009081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711009078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.22457883, y: 0.36428666, z: 0.35286224}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &832575517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832575519}
+  - component: {fileID: 832575518}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &832575518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832575517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
+--- !u!4 &832575519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832575517}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &911616955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911616957}
+  - component: {fileID: 911616956}
+  m_Layer: 0
+  m_Name: TestAvecAnimation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &911616956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911616955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beff2d2c43b8ac24889dbc157adf4e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  midiFile: {fileID: 4900000, guid: 7b2ee714b30ebac4a8e18c66cb4ade07, type: 3}
+  audioSource: {fileID: 1079542178}
+  useFlats: 1
+  whiteKeysParent: {fileID: 0}
+  blackKeysParent: {fileID: 0}
+  whiteKeys:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  blackKeys:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  music:
+  - time: 1
+    notes:
+    - noteNumber: 61
+      duration: 0.498958
+      pianoKey: {fileID: 0}
+  - time: 1.526316
+    notes:
+    - noteNumber: 70
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 42
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 1.789474
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 2.052632
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 2.31579
+    notes:
+    - noteNumber: 70
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 2.578948
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 2.842106
+    notes:
+    - noteNumber: 49
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 3.105264
+    notes:
+    - noteNumber: 70
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 42
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 3.368422
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 3.63158
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 3.894738
+    notes:
+    - noteNumber: 68
+      duration: 0.711458
+      pianoKey: {fileID: 0}
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 4.157896
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 4.421054
+    notes:
+    - noteNumber: 49
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 4.684212
+    notes:
+    - noteNumber: 66
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 39
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 4.94737
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 5.210528
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 5.473686
+    notes:
+    - noteNumber: 66
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 61
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 5.736844
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 6.000002
+    notes:
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 6.26316
+    notes:
+    - noteNumber: 66
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 58
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 6.526318
+    notes:
+    - noteNumber: 61
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 6.789476
+    notes:
+    - noteNumber: 58
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 7.052634
+    notes:
+    - noteNumber: 65
+      duration: 0.711458
+      pianoKey: {fileID: 0}
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 7.315792
+    notes:
+    - noteNumber: 58
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 7.57895
+    notes:
+    - noteNumber: 61
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 7.842108
+    notes:
+    - noteNumber: 63
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 47
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 8.105266
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 8.368424
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 8.631582
+    notes:
+    - noteNumber: 63
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 8.89474
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 9.157898
+    notes:
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 9.421056
+    notes:
+    - noteNumber: 63
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 47
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 9.684214
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 9.947372
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 10.21053
+    notes:
+    - noteNumber: 68
+      duration: 0.711458
+      pianoKey: {fileID: 0}
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 10.473688
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 10.736846
+    notes:
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 11.000004
+    notes:
+    - noteNumber: 71
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 44
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 11.263162
+    notes:
+    - noteNumber: 47
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 11.52632
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 11.789478
+    notes:
+    - noteNumber: 71
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 12.052636
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 12.315794
+    notes:
+    - noteNumber: 47
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 12.578952
+    notes:
+    - noteNumber: 71
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 44
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 12.84211
+    notes:
+    - noteNumber: 47
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 13.105268
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 13.368426
+    notes:
+    - noteNumber: 70
+      duration: 0.711458
+      pianoKey: {fileID: 0}
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 13.631584
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 13.894742
+    notes:
+    - noteNumber: 47
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 14.1579
+    notes:
+    - noteNumber: 68
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 46
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 14.421058
+    notes:
+    - noteNumber: 50
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 14.684216
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 14.947374
+    notes:
+    - noteNumber: 68
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 50
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 15.210532
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 15.47369
+    notes:
+    - noteNumber: 50
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 15.736848
+    notes:
+    - noteNumber: 70
+      duration: 0.998958
+      pianoKey: {fileID: 0}
+    - noteNumber: 46
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 16.000006
+    notes:
+    - noteNumber: 50
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 16.263165
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 16.526321
+    notes:
+    - noteNumber: 50
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 16.78948
+    notes:
+    - noteNumber: 68
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+    - noteNumber: 53
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 17.052637
+    notes:
+    - noteNumber: 66
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+    - noteNumber: 50
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 17.315796
+    notes:
+    - noteNumber: 65
+      duration: 1.52522
+      pianoKey: {fileID: 0}
+    - noteNumber: 47
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 17.578955
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 17.842112
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 18.10527
+    notes:
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 18.368427
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 18.631586
+    notes:
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 18.894745
+    notes:
+    - noteNumber: 63
+      duration: 0.998958
+      pianoKey: {fileID: 0}
+    - noteNumber: 47
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 19.157902
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 19.42106
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 19.684217
+    notes:
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 19.947376
+    notes:
+    - noteNumber: 68
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 20.210533
+    notes:
+    - noteNumber: 66
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 20.473692
+    notes:
+    - noteNumber: 65
+      duration: 1.52522
+      pianoKey: {fileID: 0}
+    - noteNumber: 39
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 20.73685
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 21.000008
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 21.263166
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 21.526323
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 21.789482
+    notes:
+    - noteNumber: 58
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 22.05264
+    notes:
+    - noteNumber: 63
+      duration: 1.446272
+      pianoKey: {fileID: 0}
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 22.315798
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 22.578957
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 22.842113
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 23.105272
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 23.36843
+    notes:
+    - noteNumber: 54
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 23.631588
+    notes:
+    - noteNumber: 56
+      duration: 0.998958
+      pianoKey: {fileID: 0}
+    - noteNumber: 44
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 23.894747
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 24.157904
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 24.421062
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 24.68422
+    notes:
+    - noteNumber: 58
+      duration: 0.998958
+      pianoKey: {fileID: 0}
+    - noteNumber: 44
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 24.947378
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 25.210535
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 25.473694
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 25.736853
+    notes:
+    - noteNumber: 59
+      duration: 0.948958
+      pianoKey: {fileID: 0}
+    - noteNumber: 44
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 26.00001
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 26.263168
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 26.526325
+    notes:
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 26.789484
+    notes:
+    - noteNumber: 61
+      duration: 0.498958
+      pianoKey: {fileID: 0}
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 27.052643
+    notes:
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 27.3158
+    notes:
+    - noteNumber: 63
+      duration: 0.498958
+      pianoKey: {fileID: 0}
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 27.578959
+    notes:
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 27.842115
+    notes:
+    - noteNumber: 65
+      duration: 0.473958
+      pianoKey: {fileID: 0}
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 28.105274
+    notes:
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 28.368431
+    notes:
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 28.63159
+    notes:
+    - noteNumber: 70
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 28.894749
+    notes:
+    - noteNumber: 68
+      duration: 0.948958
+      pianoKey: {fileID: 0}
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 29.157906
+    notes:
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 29.421064
+    notes:
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 29.684221
+    notes:
+    - noteNumber: 56
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 29.94738
+    notes:
+    - noteNumber: 58
+      duration: 0.75
+      pianoKey: {fileID: 0}
+    - noteNumber: 42
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 30.012074
+    notes:
+    - noteNumber: 61
+      duration: 0.938542
+      pianoKey: {fileID: 0}
+  - time: 30.077864
+    notes:
+    - noteNumber: 66
+      duration: 1.132675
+      pianoKey: {fileID: 0}
+  - time: 30.210539
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 30.473696
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 30.736855
+    notes:
+    - noteNumber: 58
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+  - time: 31.000011
+    notes:
+    - noteNumber: 61
+      duration: 0.497917
+      pianoKey: {fileID: 0}
+  - time: 31.26317
+    notes:
+    - noteNumber: 66
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 31.526327
+    notes:
+    - noteNumber: 61
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 31.789486
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 32.052643
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 32.315804
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 32.57896
+    notes:
+    - noteNumber: 46
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 32.842117
+    notes:
+    - noteNumber: 42
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 33.105274
+    notes:
+    - noteNumber: 63
+      duration: 1.52522
+      pianoKey: {fileID: 0}
+    - noteNumber: 71
+      duration: 1.52522
+      pianoKey: {fileID: 0}
+    - noteNumber: 44
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 33.368435
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 33.63159
+    notes:
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 33.89475
+    notes:
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 34.15791
+    notes:
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 34.421066
+    notes:
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 34.684223
+    notes:
+    - noteNumber: 44
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 34.947384
+    notes:
+    - noteNumber: 68
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 35.07896
+    notes:
+    - noteNumber: 70
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+  - time: 35.21054
+    notes:
+    - noteNumber: 71
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 35.342117
+    notes:
+    - noteNumber: 70
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+  - time: 35.473698
+    notes:
+    - noteNumber: 68
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 35.605278
+    notes:
+    - noteNumber: 67
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+  - time: 35.736855
+    notes:
+    - noteNumber: 68
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 36.000015
+    notes:
+    - noteNumber: 70
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 36.263172
+    notes:
+    - noteNumber: 70
+      duration: 0.998958
+      pianoKey: {fileID: 0}
+    - noteNumber: 39
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 36.52633
+    notes:
+    - noteNumber: 46
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 36.78949
+    notes:
+    - noteNumber: 51
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+  - time: 37.052647
+    notes:
+    - noteNumber: 55
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 37.315804
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 37.57896
+    notes:
+    - noteNumber: 67
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+    - noteNumber: 46
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 37.84212
+    notes:
+    - noteNumber: 67
+      duration: 1.446272
+      pianoKey: {fileID: 0}
+    - noteNumber: 39
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 38.105278
+    notes:
+    - noteNumber: 46
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 38.368435
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 38.631596
+    notes:
+    - noteNumber: 55
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 38.894753
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 39.15791
+    notes:
+    - noteNumber: 46
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 39.421066
+    notes:
+    - noteNumber: 75
+      duration: 1.52522
+      pianoKey: {fileID: 0}
+    - noteNumber: 47
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 39.684227
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 39.947384
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 40.21054
+    notes:
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 40.4737
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 40.73686
+    notes:
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 41.000015
+    notes:
+    - noteNumber: 47
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 41.263172
+    notes:
+    - noteNumber: 73
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 41.394753
+    notes:
+    - noteNumber: 75
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+  - time: 41.526333
+    notes:
+    - noteNumber: 76
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 41.65791
+    notes:
+    - noteNumber: 75
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+  - time: 41.78949
+    notes:
+    - noteNumber: 73
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 41.92107
+    notes:
+    - noteNumber: 72
+      duration: 0.123958
+      pianoKey: {fileID: 0}
+  - time: 42.052647
+    notes:
+    - noteNumber: 73
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 42.315807
+    notes:
+    - noteNumber: 75
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 42.578964
+    notes:
+    - noteNumber: 75
+      duration: 1.52522
+      pianoKey: {fileID: 0}
+    - noteNumber: 46
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 42.84212
+    notes:
+    - noteNumber: 50
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 43.10528
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 43.36844
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 43.631596
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 43.894753
+    notes:
+    - noteNumber: 50
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 44.157913
+    notes:
+    - noteNumber: 74
+      duration: 1.446272
+      pianoKey: {fileID: 0}
+    - noteNumber: 46
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 44.42107
+    notes:
+    - noteNumber: 50
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 44.684227
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 44.947388
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 45.210545
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 45.4737
+    notes:
+    - noteNumber: 50
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 45.73686
+    notes:
+    - noteNumber: 73
+      duration: 2.314694
+      pianoKey: {fileID: 0}
+    - noteNumber: 42
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 46.00002
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 46.263176
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 46.526333
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 46.789494
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 47.05265
+    notes:
+    - noteNumber: 49
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 47.315807
+    notes:
+    - noteNumber: 42
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 47.578964
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 47.842125
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 48.10528
+    notes:
+    - noteNumber: 71
+      duration: 0.748958
+      pianoKey: {fileID: 0}
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 48.36844
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 48.6316
+    notes:
+    - noteNumber: 49
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 48.894756
+    notes:
+    - noteNumber: 65
+      duration: 1.446272
+      pianoKey: {fileID: 0}
+    - noteNumber: 46
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 49.157913
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 49.42107
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 49.68423
+    notes:
+    - noteNumber: 62
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 49.947388
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 50.210545
+    notes:
+    - noteNumber: 53
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 50.473705
+    notes:
+    - noteNumber: 66
+      duration: 0.498958
+      pianoKey: {fileID: 0}
+    - noteNumber: 46
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 50.736862
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 51.00002
+    notes:
+    - noteNumber: 68
+      duration: 0.498958
+      pianoKey: {fileID: 0}
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 51.26318
+    notes:
+    - noteNumber: 62
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 51.526337
+    notes:
+    - noteNumber: 70
+      duration: 0.473958
+      pianoKey: {fileID: 0}
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 51.789494
+    notes:
+    - noteNumber: 53
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 52.05265
+    notes:
+    - noteNumber: 70
+      duration: 1.446272
+      pianoKey: {fileID: 0}
+    - noteNumber: 47
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 52.31581
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 52.578968
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 52.842125
+    notes:
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 53.105286
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 53.368443
+    notes:
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 53.6316
+    notes:
+    - noteNumber: 71
+      duration: 0.498958
+      pianoKey: {fileID: 0}
+    - noteNumber: 47
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 53.894756
+    notes:
+    - noteNumber: 51
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 54.157917
+    notes:
+    - noteNumber: 70
+      duration: 0.498958
+      pianoKey: {fileID: 0}
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 54.421074
+    notes:
+    - noteNumber: 59
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 54.68423
+    notes:
+    - noteNumber: 66
+      duration: 0.473958
+      pianoKey: {fileID: 0}
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 54.94739
+    notes:
+    - noteNumber: 51
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 55.21055
+    notes:
+    - noteNumber: 65
+      duration: 0.948958
+      pianoKey: {fileID: 0}
+    - noteNumber: 73
+      duration: 0.948958
+      pianoKey: {fileID: 0}
+    - noteNumber: 37
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 55.473705
+    notes:
+    - noteNumber: 44
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 55.736862
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 56.000023
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 56.26318
+    notes:
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 56.526337
+    notes:
+    - noteNumber: 53
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 56.789497
+    notes:
+    - noteNumber: 66
+      duration: 0.060417
+      pianoKey: {fileID: 0}
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 56.85419
+    notes:
+    - noteNumber: 68
+      duration: 0.060417
+      pianoKey: {fileID: 0}
+  - time: 56.921074
+    notes:
+    - noteNumber: 66
+      duration: 0.873958
+      pianoKey: {fileID: 0}
+  - time: 57.052654
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 57.31581
+    notes:
+    - noteNumber: 56
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 57.57897
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 57.84213
+    notes:
+    - noteNumber: 65
+      duration: 0.473958
+      pianoKey: {fileID: 0}
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 58.105286
+    notes:
+    - noteNumber: 56
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 58.368443
+    notes:
+    - noteNumber: 61
+      duration: 5.946274
+      pianoKey: {fileID: 0}
+    - noteNumber: 66
+      duration: 5.946274
+      pianoKey: {fileID: 0}
+    - noteNumber: 70
+      duration: 5.946274
+      pianoKey: {fileID: 0}
+    - noteNumber: 42
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 58.631603
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 58.89476
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 59.157917
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 59.421078
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 59.684235
+    notes:
+    - noteNumber: 49
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 59.94739
+    notes:
+    - noteNumber: 42
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 60.21055
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 60.47371
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 60.736866
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 61.000023
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 61.263184
+    notes:
+    - noteNumber: 49
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 61.52634
+    notes:
+    - noteNumber: 42
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 61.80704
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 62.087746
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 62.368446
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 62.649147
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 62.92985
+    notes:
+    - noteNumber: 49
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 63.210552
+    notes:
+    - noteNumber: 42
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 63.511303
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 63.812057
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 64.11281
+    notes:
+    - noteNumber: 58
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 64.41356
+    notes:
+    - noteNumber: 54
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 64.71431
+    notes:
+    - noteNumber: 49
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 65.01506
+    notes:
+    - noteNumber: 42
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 65.33895
+    notes:
+    - noteNumber: 49
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 65.662834
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 65.986725
+    notes:
+    - noteNumber: 61
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 66.31061
+    notes:
+    - noteNumber: 53
+      duration: 0.248958
+      pianoKey: {fileID: 0}
+  - time: 66.6345
+    notes:
+    - noteNumber: 49
+      duration: 0.236458
+      pianoKey: {fileID: 0}
+  - time: 66.95838
+    notes:
+    - noteNumber: 58
+      duration: 3.104168
+      pianoKey: {fileID: 0}
+    - noteNumber: 42
+      duration: 3.104168
+      pianoKey: {fileID: 0}
+  - time: 66.98908
+    notes:
+    - noteNumber: 61
+      duration: 3.071273
+      pianoKey: {fileID: 0}
+    - noteNumber: 49
+      duration: 3.071273
+      pianoKey: {fileID: 0}
+  - time: 67.01979
+    notes:
+    - noteNumber: 66
+      duration: 3.040571
+      pianoKey: {fileID: 0}
+    - noteNumber: 54
+      duration: 3.040571
+      pianoKey: {fileID: 0}
+  lowestNote: 21
+  highestNote: 108
+  animatorController: {fileID: 9100000, guid: 6286dd1e5b0acec4394f4305300f5546, type: 2}
+--- !u!4 &911616957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911616955}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.450752, y: 0.31283268, z: 0.41555375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1079542177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1079542179}
+  - component: {fileID: 1079542178}
+  m_Layer: 0
+  m_Name: AudioSourcePiano
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1079542178
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079542177}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ebff053be517a8f45aa6d8ada7c58f4f, type: 3}
+  m_Resource: {fileID: 8300000, guid: ebff053be517a8f45aa6d8ada7c58f4f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1079542179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079542177}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.092765786, y: 0.5692605, z: 0.3378265}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1310535037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310535039}
+  - component: {fileID: 1310535040}
+  - component: {fileID: 1310535038}
+  m_Layer: 0
+  m_Name: TestAvecAnimationScriptableObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1310535038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310535037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf49d0e74453d843b154d8b3e4873fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicData: {fileID: 11400000, guid: 9c0fa2e9a1e704c4cb8ae6f793b28d1f, type: 2}
+  audioSource: {fileID: 1079542178}
+  visualOffset: 0.02
+  animatorController: {fileID: 9100000, guid: 6286dd1e5b0acec4394f4305300f5546, type: 2}
+  whiteKeysParent: {fileID: 0}
+  blackKeysParent: {fileID: 0}
+  whiteKeys:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  blackKeys:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  useFlats: 1
+  lowestNote: 21
+  highestNote: 108
+  onMusicFinished:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1310535039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310535037}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.450752, y: 0.31283268, z: 0.41555375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1310535040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310535037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969e04a11f04fc24f82a2aca9bbd56bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  midiFile: {fileID: 4900000, guid: 7b2ee714b30ebac4a8e18c66cb4ade07, type: 3}
+  audioClip: {fileID: 8300000, guid: ebff053be517a8f45aa6d8ada7c58f4f, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 330585546}
+  - {fileID: 410087041}
+  - {fileID: 832575519}
+  - {fileID: 441065910}
+  - {fileID: 711009081}
+  - {fileID: 608115833}
+  - {fileID: 1079542179}
+  - {fileID: 911616957}
+  - {fileID: 1310535039}
