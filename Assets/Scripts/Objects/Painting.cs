@@ -1,27 +1,18 @@
 using TMPro;
 using UnityEngine;
 
-public class Painting : MonoBehaviour, IInteractable
+public class Painting : InteractableUIBase
 {
-    public string paintingText;
-    public GameObject boxUI;
-    public TextMeshProUGUI textMeshPro;
-    private bool canPlay = true;
+     public string paintingText;
 
-    public void OnHoverEnter()
+    public override void OnHoverEnter()
     {
-        textMeshPro.text = paintingText; 
+        base.OnHoverEnter();
+        textMeshPro.text = paintingText;
         Debug.Log("Enter Painting");
-        boxUI.SetActive(true);
     }
 
-    public void OnHoverExit()
-    {
-        boxUI.SetActive(false);
-        Debug.Log("Leave painting");
-    }
-
-    public void OnClick()
+    public override void OnClick()
     {
         Debug.Log("Tableau : " + paintingText);
     }

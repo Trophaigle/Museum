@@ -18,7 +18,7 @@ public class PlayerInteraction : MonoBehaviour
         Vector3 direction = cam.transform.forward;  // Axé sur la caméra, tout droit
         Ray ray = new Ray(origin, direction);
         RaycastHit hit;
-         Debug.DrawRay(origin, direction * distance, Color.red);
+        Debug.DrawRay(origin, direction * distance, Color.red);
 
         if (Physics.Raycast(ray, out hit, distance, interactLayer))
         {

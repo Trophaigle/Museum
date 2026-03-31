@@ -19,7 +19,7 @@ AudioImporter:
       sampleRateSetting: 1
       sampleRateOverride: 44100
       compressionFormat: 1
-      quality: 0.79999995
+      quality: 1
       conversionMode: 0
       preloadAudioData: 0
     Standalone:
@@ -28,7 +28,7 @@ AudioImporter:
       sampleRateSetting: 1
       sampleRateOverride: 44100
       compressionFormat: 1
-      quality: 0.78999996
+      quality: 1
       conversionMode: 0
       preloadAudioData: 0
     WebGL:
@@ -37,7 +37,7 @@ AudioImporter:
       sampleRateSetting: 2
       sampleRateOverride: 44100
       compressionFormat: 7
-      quality: 0.77
+      quality: 1
       conversionMode: 0
       preloadAudioData: 1
   forceToMono: 0

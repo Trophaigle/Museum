@@ -2,55 +2,28 @@ using System;
 using TMPro;
 using UnityEngine;
 
-public class Piano : MonoBehaviour, IInteractable
+public class Piano : InteractableAudioBase
 {
-    //public AudioSource audioSource;
-
-    public string displayText;
-    public GameObject boxUI;
-    public TextMeshProUGUI textMeshPro;
-    public string textPlaying;
-
-     // ✅ événement pour notifier la fin
-    public Action OnMusicFinished;
-
-     public void OnHoverEnter()
+    protected override void Play()
     {
-        if(GameManager.Instance.isPianoPlaying)
-            textMeshPro.text = textPlaying;  
-        else
-            textMeshPro.text = displayText;
-
-        boxUI.SetActive(true);
-        Debug.Log("Enter Piano");
-    }
-    public void OnHoverExit()
-    {
-        boxUI.SetActive(false);
-        Debug.Log("Leave Piano");
+        GameManager.Instance.StartPlayPiano();
     }
 
-    public void OnClick()
+    protected override void Stop()
     {
-        if (!GameManager.Instance.isPianoPlaying){
-            Debug.Log("Play");
-            GameManager.Instance.StartPlayPiano();
-           // audioSource.Play();
-
-            textMeshPro.text = textPlaying;
-        }
-        else {
-            Debug.Log("Stop");
-           // audioSource.Stop();
-           GameManager.Instance.StopPlayPiano();
-            textMeshPro.text = displayText;
-        }
+        GameManager.Instance.StopPlayPiano();
     }
 
-    public void MarkMusicFinished() //appeler par Unity Event de MIDIPianoPlayer
+    protected override bool IsPlaying()
+    {
+        return GameManager.Instance.isPianoPlaying;
+    }
+
+    public void MarkMusicFinished()
     {
         GameManager.Instance.isPianoPlaying = false;
-        textMeshPro.text = displayText; // Remet le texte normal
+        isPlaying = false;
+        textMeshPro.text = displayText;
         Debug.Log("Music finished");
-    } 
+    }
 }

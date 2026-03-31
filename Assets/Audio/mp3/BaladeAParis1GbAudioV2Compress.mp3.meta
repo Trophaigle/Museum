@@ -15,29 +15,29 @@ AudioImporter:
   platformSettingOverrides:
     Android:
       serializedVersion: 2
-      loadType: 2
+      loadType: 0
       sampleRateSetting: 1
       sampleRateOverride: 44100
       compressionFormat: 1
-      quality: 0.65999997
+      quality: 1
       conversionMode: 0
       preloadAudioData: 0
     Standalone:
       serializedVersion: 2
-      loadType: 2
+      loadType: 0
       sampleRateSetting: 1
       sampleRateOverride: 44100
       compressionFormat: 1
-      quality: 0.81
+      quality: 1
       conversionMode: 0
       preloadAudioData: 0
     WebGL:
       serializedVersion: 2
-      loadType: 1
+      loadType: 0
       sampleRateSetting: 2
       sampleRateOverride: 44100
       compressionFormat: 7
-      quality: 0.79999995
+      quality: 1
       conversionMode: 0
       preloadAudioData: 1
   forceToMono: 0

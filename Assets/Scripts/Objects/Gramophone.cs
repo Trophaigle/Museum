@@ -1,56 +1,31 @@
 using TMPro;
 using UnityEngine;
 
-public class Gramophone : MonoBehaviour, IInteractable
+public class Gramophone : InteractableAudioBase
 {
-    public AudioSource audioSource;
+     public AudioSource audioSource;
+    public GameObject lightPoint;
 
-    public string displayText;
-    public GameObject boxUI;
-    public TextMeshProUGUI textMeshPro;
-    public string textPlaying;
-    private bool isPlaying = false;
-
-    public void OnHoverEnter()
+    protected override void Play()
     {
-        if(isPlaying)
-            textMeshPro.text = textPlaying;  
-        else
-            textMeshPro.text = displayText;
-
-        boxUI.SetActive(true);
-        Debug.Log("Enter Gramophone");
-    }
-    public void OnHoverExit()
-    {
-        boxUI.SetActive(false);
-        Debug.Log("Leave Gramophone");
+        audioSource.Play();
+        lightPoint.SetActive(true);
     }
 
-    public void OnClick()
+    protected override void Stop()
     {
-        if (!audioSource.isPlaying){
-            Debug.Log("Play");
-            audioSource.Play();
-            isPlaying = true;
-            textMeshPro.text = textPlaying;
-        }
-        else {
-            Debug.Log("Stop");
-            audioSource.Stop();
-            isPlaying = false;
-            textMeshPro.text = displayText;
-        }
+        audioSource.Stop();
+        lightPoint.SetActive(false);
     }
 
-    void Update()
+    protected override bool IsPlaying()
     {
-        if (isPlaying && !audioSource.isPlaying)
-        {
-            // La musique a fini
-            isPlaying = false;
-            textMeshPro.text = displayText; // Remet le texte normal
-            Debug.Log("Music finished");
-        }
+        return audioSource.isPlaying;
+    }
+
+    protected override void OnMusicFinished()
+    {
+        lightPoint.SetActive(false);
+        Debug.Log("Music finished");
     }
 }
