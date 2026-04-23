@@ -8,6 +8,9 @@
 - [MIDI Piano Library](https://github.com/Trophaigle/MIDI-Piano-Player)
 - [Project Demo - Unity Play](https://play.unity.com/fr/games/00553f75-f7e4-4db1-bd7c-68bc2d99f070/echoes-of-the-museum)
 
+## 📷 Preview
+
+
 ## 📌 Overview
 This project is an **interactive virtual museum experience** set in a vintage, old-style interior environment inspired by classical artistic spaces.  
 The player can freely explore the room, discover artworks, and interact with objects to trigger **visual and audio feedback**.
@@ -110,13 +113,6 @@ At application startup:
 1. Clone the repository  
 2. Open the project in Unity  
 3. Run the main scene
-
-Or 
-
----
-
-## 📷 Preview
-_Add screenshots or GIFs here_
 
 ---
 
