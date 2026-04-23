@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 
 ## 📎 Resources
-- [MIDI Piano Library]([https://github.com/ton-repo/midi-piano](https://github.com/Trophaigle/MIDI-Piano-Player))
+- [MIDI Piano Library](https://github.com/Trophaigle/MIDI-Piano-Player)
 - [Project Demo - Unity Play](https://play.unity.com/fr/games/00553f75-f7e4-4db1-bd7c-68bc2d99f070/echoes-of-the-museum)
 
 ## 📌 Overview
