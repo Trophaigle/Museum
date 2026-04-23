@@ -9,7 +9,7 @@
 - [Project Demo - Unity Play](https://play.unity.com/fr/games/00553f75-f7e4-4db1-bd7c-68bc2d99f070/echoes-of-the-museum)
 
 ## 📷 Preview
-[![Watch the demo]([https://img.youtube.com/vi/ahmIuUtsdzU/0.jpg)]([https://youtu.be/ahmIuUtsdzU](https://youtu.be/0yBprdF_1xc)](https://youtu.be/0yBprdF_1xc))
+[![Watch the demo]([https://youtu.be/ahmIuUtsdzU](https://youtu.be/0yBprdF_1xc)](https://youtu.be/0yBprdF_1xc))
 
 ## 📌 Overview
 This project is an **interactive virtual museum experience** set in a vintage, old-style interior environment inspired by classical artistic spaces.  
