@@ -132,4 +132,4 @@ Personal project focused on:
 ## 💡 Notes
 This project highlights both:
 - **Creative direction** (art, sound, immersion)  
-- **Technical skills** (architecture, optimization, systems design) 
+- **Technical skills** (code, optimization, systems design) 
