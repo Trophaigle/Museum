@@ -105,7 +105,7 @@ At application startup:
 - VR support (in progress)
 - Mobile version (planned)
 - Advanced audio simulation (Wwise integration)
-- Expanded environment and interactions
+- Expanded environment and interactions  (additionnal animations, doors ...)
 
 ---
 
