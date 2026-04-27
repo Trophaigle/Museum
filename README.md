@@ -53,6 +53,7 @@ At application startup:
 - Sequence blending
 - Animation tracks
 - Activation tracks
+- Shader Graphs (Animated Materials)
 
 ---
 
