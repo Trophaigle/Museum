@@ -114,6 +114,10 @@ At application startup:
 2. Open the project in Unity  
 3. Run the main scene
 
+   Or
+
+Go on Unity Play Link at the beginning of the page.
+
 ---
 
 ## 👤 Author
