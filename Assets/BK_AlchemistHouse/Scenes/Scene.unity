@@ -49734,10 +49734,10 @@ MonoBehaviour:
         z: 0.400028
       Rotation:
         value:
-          x: 0.3817879
-          y: 0.75406235
+          x: 0.38178793
+          y: 0.7540624
           z: -0.42024162
-          w: 0.33018923
+          w: 0.33018926
     - Position:
         x: 0.9929247
         y: -1.7907554
@@ -69133,6 +69133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1204859044}
   - component: {fileID: 1204859045}
+  - component: {fileID: 1204859046}
   m_Layer: 8
   m_Name: AudioSourceGramo
   m_TagString: Untagged
@@ -69252,6 +69253,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1204859046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204859043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96c8339027e3e7489c4b91d60e910fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLight: {fileID: 108129772550832763}
+  intensityMultiplier: 2
+  threshold: 0.0018
+  smoothingFactor: 0.07
 --- !u!1 &1207497042
 GameObject:
   m_ObjectHideFlags: 0

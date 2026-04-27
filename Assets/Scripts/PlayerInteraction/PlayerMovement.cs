@@ -51,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 Debug.LogError("CapsuleCollider is NULL on " + gameObject.name + " → pas bo du tout 😡");
             }
+        playerHeight = capsule.height;
 
         radius = capsule.radius * 0.9f;
         rayLength = (capsule.height / 2f) + 0.2f;
@@ -111,10 +112,13 @@ if (Physics.Raycast(transform.position, Vector3.down, out hits, rayLength))
 
         if (OnSlope() && !exitingSlope)
         {
-            rb.AddForce(GetSlopeMoveDirection() * moveSpeed * 20f, ForceMode.Force);
+            Vector3 slopeDir = GetSlopeMoveDirection();
 
-            if(rb.linearVelocity.y > 0)
-                rb.AddForce(Vector3.down * 80f, ForceMode.Force);
+            rb.AddForce(slopeDir * moveSpeed * 15f, ForceMode.Force);
+
+            // anti-stick sur pente
+            if (rb.linearVelocity.y < 0)
+                rb.AddForce(Vector3.down * 20f, ForceMode.Force);
         }
 
         if(grounded)
@@ -123,7 +127,7 @@ if (Physics.Raycast(transform.position, Vector3.down, out hits, rayLength))
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
     
         //turn gravity off while on slope
-        rb.useGravity = !OnSlope();
+       // rb.useGravity = !OnSlope();
     }
 
     private void SpeedControl()
