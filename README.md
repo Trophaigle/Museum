@@ -130,7 +130,7 @@ Personal project focused on:
 ---
 
 ## 📎 Additional Resources
-- MIDI Piano Library: *(add your GitHub link here)*
+- MIDI Piano Library: (https://github.com/Trophaigle/MIDI-Piano-Player)
 
 ---
 
