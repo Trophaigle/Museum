@@ -1,3 +1,4 @@
+<img width="1552" height="1013" alt="imageCover" src="https://github.com/user-attachments/assets/a5e5684a-8607-4bcd-89c8-de5ff00fe988" />
 # 🎨 Interactive Museum Experience
 
 ![Unity](https://img.shields.io/badge/Engine-Unity-black)
